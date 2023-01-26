@@ -68,3 +68,35 @@ body{
     color: #eee;
     opacity: 0.2;
 }
+
+.single-fretmark::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #806233;
+    top: 150px;
+    transform: translate(0,-50%);
+}
+.double-fretmarks::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #806233;
+    top: 58px;
+    transform: translate(-140%,50%);
+}
+
+.double-fretmarks::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #806233;
+    top: 208px;
+    transform: translate(-140%,50%);
+}
